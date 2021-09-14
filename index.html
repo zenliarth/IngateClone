@@ -11,19 +11,20 @@
 
 <body>
   <div class="loader"></div>
-  <div class="containerMain">
-    <header>
+  <div class="containerMain color">
+    <header class="color">
       <div class="containerHeader">
         <a href="/">
           <img width="200px" src="./images/logo.png" alt="ingateLogo">
         </a>
         <nav>
+          <button class="ativar"><img class="icon" src="./images/night1.png"></button>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="Sobre">About us</a></li>
+            <li><a class="toggle" href="/">Home</a></li>
+            <li><a class="toggle" href="Sobre">About us</a></li>
           </ul>
         </nav>
-        <button type="button">Entrar</button>
+        <button class="btn-Header" type="button">Entrar</button>
       </div>
     </header>
     <main>
@@ -31,7 +32,7 @@
         <div class="section1">
           <div class="s1-info">
             <div class="s1-title">
-              <h1>Crie e Gerencie suas aulas!</h1>
+              <h1 class="toggle">Crie e Gerencie suas aulas!</h1>
             </div>
             <div class="s1-p">
               <!-- TEXT -->
@@ -44,21 +45,21 @@
             </div>
           </div>
           <div class="s1-info2">
-            <img width="100%" src="./images/s1_right_pt_br.7cc921cc.png" alt="">
+            <img width="100%" src="./images/s1_right_pt_br.7cc921cc.png" ">
           </div>
         </div>
       </section>
       <section class='js-scroll'>
-        <div class="section2">
-          <div class="novidades">
-            <h2>Cadastre-se para receber novidades</h2>
-            <p>Preencha seu e-mail e receba as últimas atualizações da plataforma!</p>
-            <div class="s2-email">
-              <input type="email" placeholder="Digite seu email">
-              <button>Cadastre-se</button>
+        <div class=" section2">
+            <div class="novidades">
+              <h2 class='toggle'>Cadastre-se para receber novidades</h2>
+              <p class='toggle'>Preencha seu e-mail e receba as últimas atualizações da plataforma!</p>
+              <div class="s2-email">
+                <input type="email" placeholder="Digite seu email">
+                <button>Cadastre-se</button>
+              </div>
             </div>
           </div>
-        </div>
       </section>
       <section class='js-scroll'>
         <div class="section3">
@@ -72,7 +73,7 @@
       </section>
       <section class='js-scroll'>
         <div class="section4">
-          <h2>Ferramentas</h2>
+          <h2 class="toggle">Ferramentas</h2>
           <div class="listTools">
             <ul>
               <li><a href="/">
@@ -126,6 +127,7 @@
       </div>
     </footer>
   </div>
+
   <script type="text/javascript" src="./script.js" />
 </body>
 
